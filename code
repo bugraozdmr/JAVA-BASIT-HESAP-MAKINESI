@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class deneme{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("BASİT HESAP MAKİNESİ");
+        System.out.print("1.İşlem :Toplama\n2.İşlem :Çıkarma\n3.İşlem :Çarpma\n4.İşlem :Bölme\nİşlem seçiniz =>");
+        int secim = scanner.nextInt();
+        switch (secim){
+            case 1:
+                System.out.println("Sayı 1:");
+                int sayi1 =scanner.nextInt();
+                System.out.println("Sayı 2:");
+                int sayi2 = scanner.nextInt();
+                System.out.println("Sonuç :"+(sayi1+sayi2));
+                break;
+            case 2:
+                System.out.println("Sayı 1:");
+                int sayi3 =scanner.nextInt();
+                System.out.println("Sayı 2:");
+                int sayi4 = scanner.nextInt();
+                System.out.println("Sonuç :"+(sayi3-sayi4));
+                break;
+            case 3:
+                System.out.println("Sayı 1:");
+                int sayi5 =scanner.nextInt();
+                System.out.println("Sayı 2:");
+                int sayi6 = scanner.nextInt();
+                System.out.println("Sonuç :"+(sayi5*sayi6));
+                break;
+            case 4:
+                System.out.println("Sayı 1:");
+                int sayi7 =scanner.nextInt();
+                System.out.println("Sayı 2:");
+                int sayi8 = scanner.nextInt();
+                System.out.println("Sonuç :"+(sayi7/sayi8));
+                break;
+            default:
+                System.out.println("Hatalı seçim !");
+                break;
+        }
+    }
+}
