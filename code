@@ -33,7 +33,7 @@ public class deneme{
                 a =scanner.nextInt();
                 System.out.println("Sayı 2:");
                 b = scanner.nextInt();
-                System.out.println("Sonuç :"+(a/b));
+                System.out.println("Sonuç :"+((double)a/b));
                 break;
             default:
                 System.out.println("Hatalı seçim !");
